@@ -3,7 +3,7 @@ $(document).ready(function () {
     var date = moment().format('MMMM Do YYYY, h:mm:ss a');
     $(div).prepend(date);
     var button = document.querySelector("#button");
-    var text = document.querySelector("#text");
+    var text = document.querySelector("#row");
     var toggleBackground = text.getAttribute("class");
     var inputText = "";
     var localStorage = window.localStorage;
@@ -11,8 +11,8 @@ $(document).ready(function () {
         e.preventDefault();
         inputText = $("#text").val();
         localStorage.setItem('Event', inputText);
-        if (toggleBackground === "alert alert-secondary") {
-            text.setAttribute("class", "alert alert-success");
+        if (toggleBackground === "col-10 alert alert-secondary") {
+            text.setAttribute("class", "col-10 alert alert-success");
         }
     });
 });
