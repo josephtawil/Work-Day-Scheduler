@@ -3,12 +3,6 @@ body {
   font-size: 16px;
   line-height: 1;
 }
-.text
-{
-  height: 50px; 
-  width: 400px; 
-  background-color: lightgray;
-}
 .greenbackground
 {
   height: 50px; 
@@ -79,4 +73,11 @@ textarea{
 .saveBtn i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
+}
+[class*="col-"]
+{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: grey;
+  border: 1px thick;
 }
