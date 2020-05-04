@@ -21,25 +21,153 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   </header>
-
   <div class="container">
     <!-- Timeblocks go here -->
+    <input class="alert alert-secondary" style="display:flex;justify-content: center;align-items: center;" role="alert"
+      id="text" type="text" style="width:300px" placeholder="Add An Event" />
     <div class="row">
       <div class="col-1">
-        <p>Time</p>
+        <div id="morning" class="hour 1 ">
+          <p>9:00 a.m.</p>
+        </div>
       </div>
-      <div id="row" class="col-10 alert alert-secondary">
+      <div class="col-9">
+        <div id="area" class="textarea" style="border:solid;height:50px"></div>
+      </div>
+      <div class="col-1">
+        <button id="button" class="saveBtn" style="height:50px">Save</button>
+      </div>
+      <div class="col-1">
+        <button id="delete" class="saveBtn" style="height:50px;background-color:red">Delete</button>
 
-        <input class="alert alert-secondary" role="alert" id="text" type="text" style="width:300px" placeholder="" />
       </div>
-      <div class="col-1" style="background-color: lightskyblue;">
-        <button id="button" style="height:50px; width:50px; margin-right: 20px">Save</button>
+
+    </div>
+    <div class="row">
+      <div class="col-1">
+        <div id="morning2" class="hour 2 ">
+          <p>10:00 a.m.</p>
+        </div>
+      </div>
+      <div class="col-9">
+        <div id="area" class="textarea" style="border:solid;height:50px"></div>
+      </div>
+      <div class="col-1">
+        <button id="button" class="saveBtn" style="height:50px">Save</button>
+      </div>
+      <div class="col-1">
+        <button id="delete" class="saveBtn" style="height:50px;background-color:red">Delete</button>
+
       </div>
     </div>
+    <div class="row">
+      <div class="col-1">
+        <div id="morning3" class="hour 3 ">
+          <p>11:00 a.m.</p>
+        </div>
+      </div>
+      <div class="col-9">
+        <div id="area" class="textarea" style="border:solid;height:50px"></div>
+      </div>
+      <div class="col-1">
+        <button id="button" class="saveBtn" style="height:50px">Save</button>
+      </div>
+      <div class="col-1">
+        <button id="delete" class="saveBtn" style="height:50px;background-color:red">Delete</button>
 
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-1">
+        <div id="afternoon" class="hour 4 ">
+          <p>12:00 p.m.</p>
+        </div>
+      </div>
+      <div class="col-9">
+        <div id="area" class="textarea" style="border:solid;height:50px"></div>
+      </div>
+      <div class="col-1">
+        <button id="button" class="saveBtn" style="height:50px">Save</button>
+      </div>
+      <div class="col-1">
+        <button id="delete" class="saveBtn" style="height:50px;background-color:red">Delete</button>
+
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="col-1">
+        <div id="afternoon2" class="hour 5">
+          <p>1:00 p.m.</p>
+        </div>
+      </div>
+      <div class="col-9">
+        <div id="area" class="textarea" style="border:solid;height:50px"></div>
+      </div>
+      <div class="col-1">
+        <button id="button" class="saveBtn" style="height:50px">Save</button>
+      </div>
+      <div class="col-1">
+        <button id="delete" class="saveBtn" style="height:50px;background-color:red">Delete</button>
+
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="col-1">
+        <div id="afternoon3" class="hour 6">
+          <p>2:00 p.m.</p>
+        </div>
+      </div>
+      <div class="col-9">
+        <div id="area" class="textarea" style="border:solid;height:50px"></div>
+      </div>
+      <div class="col-1">
+        <button id="button" class="saveBtn" style="height:50px">Save</button>
+      </div>
+      <div class="col-1">
+        <button id="delete" class="saveBtn" style="height:50px;background-color:red">Delete</button>
+
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-1">
+        <div id="evening" class="hour 7"></div>
+        <p>3:00 p.m.</p>
+      </div>
+      <div class="col-9">
+        <div id="area" class="textarea" style="border:solid;height:50px"></div>
+      </div>
+      <div class="col-1">
+        <button id="button" class="saveBtn" style="height:50px">Save</button>
+      </div>
+      <div class="col-1">
+        <button id="delete" class="saveBtn" style="height:50px;background-color:red">Delete</button>
+
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-1">
+        <div id="evening2" class="hour 8">
+          <p>4:00 p.m.</p>
+        </div>
+      </div>
+      <div class="col-9">
+        <div id="area" class="textarea" style="border:solid;height:50px"></div>
+      </div>
+      <div class="col-1">
+        <button id="button" class="saveBtn" style="height:50px">Save</button>
+      </div>
+      <div class="col-1">
+        <button id="delete" class="saveBtn" style="height:50px;background-color:red">Delete</button>
+
+      </div>
+
+    </div>
   </div>
   </div>
-  </div>
+  <footer></footer>
+
 
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
@@ -59,4 +187,4 @@
 <script src="app.js"></script>
 </body>
 
-</html> -->
+</html>
